@@ -58,10 +58,11 @@ margin-left: auto;
 }
 
 #whatido {
-  margin-left: 40%;
-  margin-right: 40%;
-  height: 90%;
-  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 300px;
+  position: relative;
 }
 
 #pfgrid {
@@ -184,3 +185,15 @@ margin-left: auto;
   box-shadow: 0px 4px 3px rgba(256,256,0,0.4),
          0px 8px 13px rgba(0,256,256,0.4),
          0px 18px 23px rgba(256,0,256,0.4);
+
+@media screen and (max-width: 1000px) {
+  #page-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+  }
+ 
+  #whatido {
+      width: 100%;
+  }
+}
