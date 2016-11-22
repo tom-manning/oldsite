@@ -1,3 +1,171 @@
+<<<<<<< HEAD
+html, body {
+  height: 100%;
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(43%, rgba(237,237,237,1)), color-stop(88%, rgba(244,244,244,1)), color-stop(100%, rgba(246,246,246,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=1 );
+}
+
+#page-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+}
+
+h2, h4 {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  text-shadow: 0px 4px 3px rgba(0,0,256,0.4),
+         0px 8px 13px rgba(0,0,0,256.1),
+         0px 18px 23px rgba(0,0,256,0.1);
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
+#header {
+box-shadow: 2px 2px 2px rgba(0,0,256,0.3);
+background: rgba(255,255,255,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(239,239,239,1) 60%, rgba(237,237,237,1) 72%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(11%, rgba(246,246,246,1)), color-stop(60%, rgba(239,239,239,1)), color-stop(72%, rgba(237,237,237,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(239,239,239,1) 60%, rgba(237,237,237,1) 72%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(239,239,239,1) 60%, rgba(237,237,237,1) 72%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(239,239,239,1) 60%, rgba(237,237,237,1) 72%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(239,239,239,1) 60%, rgba(237,237,237,1) 72%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+margin-right: auto;
+margin-left: auto;
+}
+
+#header > img {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+#whatever {
+    position:fixed; top:2%; left:0%; }
+}
+
+#github {
+  padding-left: 4rem;
+
+}
+
+#link{
+  font-weight: bold;
+}
+
+#vlink {
+  text-align: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#githubr {
+  float: right;
+}
+#githubl {
+  float: left;
+}
+
+#links {
+  line-height: 3rem;
+}
+
+#links > ul {
+  list-style: none;
+  text-align: center;
+}
+
+/*middle-out underline*/
+#link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+#link:hover {
+  color: #000;
+}
+
+#link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+#link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#lastsegment {
+  margin-bottom: 5%;
+}
+
+/*footer*/
+#page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+#site-footer, #page-wrap:after {
+  height: 142px; 
+}
+#site-footer {
+  background: #1e3c72; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                 
+}
+
+#site-footer > ul {
+  list-style: none;
+  color: white;
+  line-height: 2.25rem;
+  font-weight: bold;
+  text-shadow: 0px 4px 3px rgba(256,256,0,0.4),
+         0px 8px 13px rgba(256,0,256,0.1),
+         0px 18px 23px rgba(256,0,256,0.1);
+    }
+
+#site-footer > p {
+  list-style: none;
+  color: white;
+  line-height: 2.25rem;
+  font-weight: bold;
+  text-shadow: 0px 4px 3px rgba(256,256,0,0.4),
+         0px 8px 13px rgba(256,0,256,0.1),
+         0px 18px 23px rgba(256,0,256,0.1);
+  text-align: center;
+}
+
+#bicycle:hover {
+  color: blue;
+  box-shadow: 0px 4px 3px rgba(256,256,0,0.4),
+         0px 8px 13px rgba(0,256,256,0.4),
+         0px 18px 23px rgba(256,0,256,0.4);
+=======
 body {
  background: #ECE9E6; /* fallback for old browsers */
  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
@@ -12,4 +180,5 @@ h1 {
 h3 {
  text-align: center;
  font-family: 'Karla', sans-serif;
+>>>>>>> 9db8237d916dd41e80d466b48276d7ee0739d801
 }
