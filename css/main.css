@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html, body {
   height: 100%;
   background: rgba(255,255,255,1);
@@ -57,12 +57,21 @@ margin-left: auto;
 
 }
 
+#maindivider {
+  padding-bottom: 400px;
+}
+
+#constr{
+  
+}
+
 #pfgrid {
-  height: 200px;
+  height: 800px;
   width: 100%;
   background-color: blue;
   border: 2px solid orange;
 }
+
 
 #link{
   font-weight: bold;
@@ -89,6 +98,10 @@ margin-left: auto;
 #links > ul {
   list-style: none;
   text-align: center;
+}
+
+#flink {
+  color: white;
 }
 
 /*middle-out underline*/
