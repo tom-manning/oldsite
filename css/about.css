@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+}
+
+p { font-size: 20px; 
+	margin-top: 5%;
+}  
+
+ul {
+	list-style: none;
+}
+
+#pwork > p{
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#home {
+	padding-top: 50px;
+}
