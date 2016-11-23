@@ -41,11 +41,19 @@ background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
 margin-right: auto;
 margin-left: auto;
+background-image: cover;
+line-height: 0em;
 }
 
-#header > img {
-  padding-left: 5%;
-  padding-top: 2%;
+#header > #ncimg {
+  max-height: 400px;
+  width: 100%;
+
+}
+
+#floatlogo {
+  position: absolute;
+  height: 10%;
 }
 
 #whatever {
@@ -62,16 +70,16 @@ margin-left: auto;
   margin-right: auto;
   height: 400px;
   width: 300px;
-  position: relative;
+  display: block;
 }
-
+/*
 #pfgrid {
   height: 800px;
   width: 100%;
   background-color: blue;
   border: 2px solid orange;
 }
-
+*/
 
 #link{
   font-weight: bold;
@@ -185,15 +193,10 @@ margin-left: auto;
   box-shadow: 0px 4px 3px rgba(256,256,0,0.4),
          0px 8px 13px rgba(0,256,256,0.4),
          0px 18px 23px rgba(256,0,256,0.4);
-
-@media screen and (max-width: 1000px) {
-  #page-wrap {
-  margin-left: auto;
-  margin-right: auto;
-  width: 88%;
-  }
- 
-  #whatido {
-      width: 100%;
-  }
 }
+
+@media screen and (max-width: 600px) {
+    #floatlogo {
+     height: 30px;
+         }
+  }
