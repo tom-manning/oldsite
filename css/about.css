@@ -20,3 +20,35 @@ ul {
 #home {
 	padding-top: 50px;
 }
+
+/*middle-out underline*/
+#link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+#link:hover {
+  color: #000;
+}
+
+#link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+#link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
