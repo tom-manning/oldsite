@@ -73,14 +73,7 @@ line-height: 0em;
   width: 300px;
   display: block;
 }
-/*
-#pfgrid {
-  height: 800px;
-  width: 100%;
-  background-color: blue;
-  border: 2px solid orange;
-}
-*/
+
 
 #link{
   font-weight: bold;
@@ -88,7 +81,7 @@ line-height: 0em;
 
 #vlink {
   text-align: center;
-  width: 200px;
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -223,5 +216,9 @@ line-height: 0em;
          0px 18px 23px rgba(0,0,256,0.1);
  
 
+}
+
+#pf {
+  height: 600px;
 }
 
