@@ -62,7 +62,7 @@ ul {
   transform: scaleX(1);
 }
 
-mail:hover {
+#mail:hover {
   color: blue;
 }
 
