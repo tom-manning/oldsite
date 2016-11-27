@@ -219,6 +219,15 @@ line-height: 0em;
 }
 
 #pf {
-  height: 600px;
+  height: 900px;
 }
 
+#lastdiv {
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
+}
+
+#mail:hover {
+  color: blue;
+}
