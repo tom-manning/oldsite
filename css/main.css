@@ -1,4 +1,4 @@
-
+/*maybe I should have commented this file*/
 html, body {
   height: 100%;
   background: rgba(255,255,255,1);
@@ -42,6 +42,10 @@ line-height: 0em;
     position:fixed; top:2%; left:0%; 
 }
 
+#welcome {
+  text-align: center;
+  padding-top: 10%;
+}
 #github {
   padding-left: 4rem;
   color: white;
@@ -174,13 +178,13 @@ line-height: 0em;
 
 @media screen and (max-width: 600px) {
     #floatlogo {
-     height: 30px;
+     height: 40px;
          }
   }
 
 @media screen and (max-width: 600px) {
     #floatthis {
-      font-size: 13px
+      font-size: 16px
          }
   }
 
@@ -216,7 +220,7 @@ line-height: 0em;
 }
 
 #cimg {
-  height: 200px;
+  height: 195px;
   overflow: hidden;
 }
 
