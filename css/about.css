@@ -29,6 +29,7 @@ ul {
 
 #pwork {
   margin-bottom: 6em;
+  margin-top:10%;
 }
 #pwork > p{
 	line-height: 30px;
@@ -92,7 +93,9 @@ ul {
   left: 35%;
   top: 3em;
   height: 25%;
-  
+}
+#pastwork {
+  margin-top: 25%;
 }
 
 /*footer*/
