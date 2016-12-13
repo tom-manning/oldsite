@@ -41,15 +41,21 @@ line-height: 0em;
 #whatever {
     position:fixed; top:2%; left:0%; 
 }
+#whatevers {
+  position:absolute; top:2%; right:6%; 
+  background: rgba(0,0,200,0.1);
+  color: white;
+}
+
+
 
 #welcome {
   text-align: center;
   padding-top: 10%;
 }
-#github {
-  padding-left: 4rem;
-  color: white;
 
+#pf{
+  padding-bottom: 3rem;
 }
 
 #whatido {
@@ -60,9 +66,20 @@ line-height: 0em;
   display: block;
 }
 
+#hmail {
+  cursor: pointer;
+}
 
 #link{
   font-weight: bold;
+}
+
+#github:hover {
+  color: white;
+}
+
+#github:before {
+  color: white;
 }
 
 #vlink {
@@ -71,13 +88,6 @@ line-height: 0em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-}
-
-#githubr {
-  float: right;
-}
-#githubl {
-  float: left;
 }
 
 #links {
@@ -106,6 +116,7 @@ line-height: 0em;
 
 #link:hover {
   color: #000;
+  cursor: pointer;
 }
 
 #link:before {
@@ -186,7 +197,20 @@ line-height: 0em;
     #floatthis {
       font-size: 16px
          }
-  }
+    }
+  
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+  #whatevers {
+      position: absolute; top:2%; right:6%; 
+      }
+}
+
+@media screen and (min-width: 601 px) and (max-width: 940px){
+  #whatevers {
+      position: absolute; top:2%; right:6%; 
+      }
+}
 
  #linksa > a {
   margin-left: 57%;
@@ -205,9 +229,6 @@ line-height: 0em;
 
 }
 
-#pf {
-  height: 900px;
-}
 
 #lastdiv {
   padding-top: 3rem;
@@ -217,6 +238,7 @@ line-height: 0em;
 
 #mail:hover {
   color: blue;
+  cursor: pointer;
 }
 
 #cimg {
