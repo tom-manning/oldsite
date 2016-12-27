@@ -54,6 +54,10 @@ line-height: 0em;
   padding-top: 10%;
 }
 
+#welcome1 {
+  text-align: center;
+}
+
 #pf{
   padding-bottom: 2.0em;
 }
@@ -281,7 +285,7 @@ line-height: 0em;
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -o-transform: rotate(0deg);l
     transform: rotate(0deg);
   }
   to {
