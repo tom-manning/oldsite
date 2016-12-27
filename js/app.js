@@ -1,10 +1,10 @@
 $('#mail').on("click", function(){
-    window.open("mailto:copytommanning@gmail.com?subject=I just saw your site")
+    window.open("mailto:tmanning20@gmail.com?subject=I just saw your site")
 });
 
 // wet code alert
 $('#hmail').on("click", function(){
-    window.open("mailto:copytommanning@gmail.com?subject=I just saw your site")
+    window.open("mailto:tmanning20@gmail.com?subject=I just saw your site")
 });
 
 $('#titletrans').on('click', function(){
