@@ -33,7 +33,7 @@ line-height: 0em;
 
 #floatlogo {
   position: absolute;
-  left: 1.5em;
+  left: 2.5em;
   top: .75em;
   height: 10%;
 }
@@ -60,6 +60,7 @@ line-height: 0em;
 
 #pf{
   padding-bottom: 2.0em;
+  margin-left: .5em;
 }
 
 #whatido {
