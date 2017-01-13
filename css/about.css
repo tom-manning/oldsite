@@ -94,6 +94,16 @@ ul {
   top: 3em;
   height: 25%;
 }
+
+#emailme {
+  font-weight: bold;
+}
+#newWindow{
+  margin-top: 0;
+  padding-bottom: 0;
+  font-size: 16px;
+}
+
 #pastwork {
   margin-top: 15%;
 }
