@@ -131,6 +131,7 @@ ul {
   list-style: none;
   color: white;
   line-height: 2.25rem;
+  font-weight: bold;
     }
 
 #site-footer > p {
