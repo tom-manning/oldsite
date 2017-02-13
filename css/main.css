@@ -1,14 +1,14 @@
 /*maybe I should have commented this file*/
 html, body {
   height: 100%;
-  background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(43%, rgba(237,237,237,1)), color-stop(88%, rgba(244,244,244,1)), color-stop(100%, rgba(246,246,246,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=1 );
+ 
+
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+        
 }
 
 #page-wrap {
@@ -33,7 +33,7 @@ line-height: 0em;
 
 #floatlogo {
   position: absolute;
-  left: 2.5em;
+  left: 4.5em;
   top: .75em;
   height: 10%;
 }
@@ -51,7 +51,7 @@ line-height: 0em;
 
 #welcome {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 #welcome1 {
@@ -88,11 +88,10 @@ line-height: 0em;
 }
 
 #vlink {
-  text-align: center;
-  width: 100px;
-  margin-left: auto;
+  width: 0%;
+  margin-left: 40%;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 30%;
 }
 
 #links {
@@ -194,7 +193,7 @@ line-height: 0em;
 
 @media screen and (max-width: 600px) {
     #floatlogo {
-     height: 40px;
+     height: 8%;
          }
   }
 
@@ -202,6 +201,13 @@ line-height: 0em;
     #floatthis {
       font-size: 16px
          }
+         #vlink {
+            width: 0%;
+            margin-left: 20%;
+            margin-right: auto;
+            margin-top: 50%;
+            margin-bottom: 30%;
+          }
     }
   
 
