@@ -1,0 +1,35 @@
+.photo {
+    height: 50%;
+    width: 50%;
+}
+
+#h {
+    text-transform: uppercase;
+}
+
+#lmk {
+    font-weight: bold;
+    font-size: 27px;
+    float: right;
+    text-align: center;
+    position: fixed; top:30%; right:10%; 
+}
+
+#foot {
+   text-align: center;
+}
+
+@media only screen and (max-width: 1090px) {
+
+#lmk { 
+  display: none;
+ }
+}
+
+@media (max-width:768px) {
+    img {
+        max-width: 350px;
+        max-height: 414px;
+    }
+}
+
