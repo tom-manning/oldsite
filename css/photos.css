@@ -15,10 +15,14 @@
     position: fixed; top:30%; right:10%; 
 }
 
-#foot, #cr {
+#foot, #cr, #plink {
    text-align: center;
 }
 
+#plink {
+    text-align: center;
+    
+}
 @media only screen and (max-width: 1090px) {
 
 #lmk { 
