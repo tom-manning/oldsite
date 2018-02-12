@@ -1,14 +1,10 @@
 html, body {
   height: 100%;
   background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(43%, rgba(237,237,237,1)), color-stop(88%, rgba(244,244,244,1)), color-stop(100%, rgba(246,246,246,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 43%, rgba(244,244,244,1) 88%, rgba(246,246,246,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=1 );
-text-align: center;
+background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 margin: 0;
 }
 
