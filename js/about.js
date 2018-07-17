@@ -1,3 +1,3 @@
 $('#mail').on("click", function(){
-    window.open("mailto:copytommanning@gmail.com")
+    window.open("mailto:tmanning20@gmail.com")
 });
