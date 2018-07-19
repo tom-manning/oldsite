@@ -39,12 +39,12 @@ html, body, header {
 #whatever {
     position:fixed; top:2%; left:0%; 
 }
+
 #whatevers {
   position:absolute; top:2%; right:6%; 
   background: rgba(0,0,200,0.1);
   color: white;
 }
-
 
 
 #welcome {
