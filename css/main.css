@@ -14,21 +14,6 @@ html, body, header {
   width: 88%;
 }
 
-/*#header {*/
-/*box-shadow: 2px 2px 2px rgba(0,0,256,0.3);*/
-/*margin-right: auto;*/
-/*margin-left: auto;*/
-/*line-height: 0em;*/
-/*}*/
-
-/*#header > #ncimg {*/
-/*  max-height: 250px;*/
-/*  width: 100%;*/
-/*}*/
-
-
-
-
 #floatlogo {
   position: absolute;
   left: 4.5em;
@@ -46,30 +31,48 @@ html, body, header {
   color: white;
 }
 
+.me {
+  display: block;
+  margin-left: 43.5%;
+  margin-top: 20%;
+  width: 100%;
+  height: auto;
+}
+
 
 #welcome {
   text-align: center;
   text-shadow: 1px 1px #f936f2;
   color: blue;
-  padding-top: 17%;
+  padding-top: 5%;
 }
 
 #welcome1 {
   text-align: center;
+  text-shadow: 1px 1px #f936f2;
+  color: blue;
+  padding-top: 5%;
+}
+
+#welcome2 {
+  text-align: center;
+  font-size: 
+}
+
+.about {
+  font-size: 1.025em;
 }
 
 #pf{
+  text-align: center;
   padding-bottom: 2.0em;
   margin-left: .5em;
 }
 
-/*#whatido {*/
-/*  margin-left: auto;*/
-/*  margin-right: auto;*/
-/*  height: 400px;*/
-/*  width: 300px;*/
-/*  display: block;*/
-/*}*/
+#cards {
+  display: block;
+  margin-left: 40%;
+}
 
 #hmail {
   cursor: pointer;
@@ -195,7 +198,26 @@ html, body, header {
     #floatlogo {
      height: 8%;
          }
+    .me {
+      width: 25%;
+      margin-left: 38%;
+      padding-top: 10%;
+    }    
+    #cards {
+      margin-right: 25%;
+    }
+    
   }
+  
+@media screen and (max-width: 768px) {
+    .me {
+      margin-left: 39%;
+      padding-top: 5%;
+    }    
+    #cards {
+      margin-left: 25%
+    }
+  }  
 
 @media screen and (max-width: 600px) {
     #floatthis {
@@ -217,11 +239,7 @@ html, body, header {
       }
 }
 
-@media screen and (min-width: 601 px) and (max-width: 940px){
-  #whatevers {
-      position: absolute; top:2%; right:6%; 
-      }
-}
+
 
  #linksa > a {
   margin-left: 57%;
