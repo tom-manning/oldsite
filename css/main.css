@@ -42,17 +42,17 @@ html, body, header {
 
 #welcome {
   text-align: center;
-  text-shadow: 3px 3px #f26bff;
-  color: cyan;
+  text-shadow: 3px 3px #ff5c00;
+  color: #00faff;
   padding-top: 5%;
   font-size: 1.5em;
 }
 
 #welcome1 {
   text-align: center;
-  text-shadow: 3px 3px #f26bff;
+  text-shadow: 3px 3px #ff5c00;
   font-size: 1.5em;
-  color: cyan;
+  color: #00faff;
   padding-top: 5%;
 }
 
@@ -76,6 +76,9 @@ html, body, header {
 
 #pf{
   text-align: center;
+  text-shadow: 3px 3px #ff5c00;
+  font-size: 1.5em;
+  color: #00faff;
   padding-bottom: 2.0em;
   margin-left: .5em;
 }
@@ -131,7 +134,7 @@ html, body, header {
 }
 
 #link:hover {
-  color: red;
+  color: #1d0a7f;
   cursor: pointer;
 }
 
