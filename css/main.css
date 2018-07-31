@@ -42,25 +42,36 @@ html, body, header {
 
 #welcome {
   text-align: center;
-  text-shadow: 1px 1px #f936f2;
-  color: blue;
+  text-shadow: 3px 3px #f26bff;
+  color: cyan;
   padding-top: 5%;
+  font-size: 1.5em;
 }
 
 #welcome1 {
   text-align: center;
-  text-shadow: 1px 1px #f936f2;
-  color: blue;
+  text-shadow: 3px 3px #f26bff;
+  font-size: 1.5em;
+  color: cyan;
   padding-top: 5%;
 }
 
 #welcome2 {
   text-align: center;
-  font-size: 
 }
 
 .about {
-  font-size: 1.025em;
+  font-size: 1.1em;
+  color: #f4f8ff;
+  text-shadow: 1.4px 1.4px black;
+  
+}
+
+#about1 {
+  font-size: 1.2em;
+  text-shadow: 1.4px 1.4px black;
+  color: cyan;
+  
 }
 
 #pf{
@@ -76,10 +87,6 @@ html, body, header {
 
 #hmail {
   cursor: pointer;
-}
-
-#link{
-  font-weight: bold;
 }
 
 #github:hover {
@@ -117,16 +124,19 @@ html, body, header {
 /*middle-out underline*/
 #link {
   position: relative;
-  color: #000;
-  text-decoration: none;
+  color: #f4f8ff;
+  text-shadow: 1.4px 1.4px black;
+  font-size: 1.3em;
+  
 }
 
 #link:hover {
-  color: #000;
+  color: red;
   cursor: pointer;
 }
 
 #link:before {
+  color: red;
   content: "";
   position: absolute;
   width: 100%;
