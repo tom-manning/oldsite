@@ -34,7 +34,7 @@ html, body, header {
 .me {
   display: block;
   margin-left: 43.5%;
-  margin-top: 5%;
+  margin-top: 4%;
   width: 100%;
   height: auto;
 }
@@ -44,7 +44,7 @@ html, body, header {
   text-align: center;
   text-shadow: 3px 3px #ff5c00;
   color: #00faff;
-  padding-top: 5%;
+  padding-top: 2%;
   font-size: 1.5em;
 }
 
