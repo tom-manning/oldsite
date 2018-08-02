@@ -34,7 +34,7 @@ html, body, header {
 .me {
   display: block;
   margin-left: 43.5%;
-  margin-top: 20%;
+  margin-top: 5%;
   width: 100%;
   height: auto;
 }
@@ -60,11 +60,17 @@ html, body, header {
   text-align: center;
 }
 
+#welcome3 {
+  text-align: center;
+  text-shadow: 3px 3px #ff5c00;
+  font-size: 2em;
+  color: #00faff;
+}
 .about {
-  font-size: 1.1em;
+  font-size: 1.4em;
   color: #f4f8ff;
-  text-shadow: 1.4px 1.4px black;
-  
+  color: white;
+  text-shadow: 1.4px 1.4px black ;
 }
 
 #about1 {
