@@ -68,6 +68,7 @@ html, body, header {
 }
 .about {
   font-size: 1.4em;
+  line-height: 1em;
   color: #f4f8ff;
   color: white;
   text-shadow: 1.4px 1.4px black ;
